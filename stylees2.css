@@ -373,7 +373,26 @@ footer {
     box-shadow: 0 0 30px rgba(32, 196, 119, 0.3);
 }
 
+.parent {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
 
+.admin0 {
+    height: 40%;
+    width: 40%;
+}
+
+.glavnyi-administrator0 {
+    height: 40%;
+    width: 40%;
+}
+
+.teh-administrator0 {
+    height: 40%;
+    width: 40%;
+}
 
 @media (max-width: 768px) {
     .logo h1 {
